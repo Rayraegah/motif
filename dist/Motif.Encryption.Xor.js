@@ -1,0 +1,1 @@
+Motif.Encryption.Xor={encode:function(n,o){for(var e=[],r=0;r<n.length;r++)e.push(String.fromCharCode(n.charCodeAt(r)^o.charCodeAt(r%o.length)));return e.join("")},decode:function(n,o){return this.encode(n,o)}};

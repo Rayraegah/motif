@@ -1,0 +1,1 @@
+Motif.Checksum.Adler32={__class:["Motif.Checksum.Adler32"],_base:4096,_chunk:1024,encode:function(e){for(var h=e.length,s=1,t=65535&s,c=s>>16,r=-1;h>0;){var n=this._chunk>h?h:this._chunk;for(h-=n;n-- >=0;)t=t+e.charCodeAt(r++)&255,c+=t;t%=this._base,c%=this._base}return t<<16|c}};
