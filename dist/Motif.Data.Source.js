@@ -1,0 +1,1 @@
+Motif.Page.include("Motif.Data.TableCollection.js"),Motif.Data.Source=function(t){Motif.Utility.extend(this,"Motif.Object"),this.__class.push("Motif.Data.Source"),this.tables=new Motif.Data.TableCollection,this.main=function(t){t&&this.configure(t)},this.main(t)};
