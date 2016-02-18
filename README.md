@@ -34,7 +34,7 @@ Creating derived classes can be done simply by invoking a function object within
 		this.inheritFrom();
 	}; 
 
-On the other hand we have a Motif.Utility.extend method which is compatible with this idea and adds base method references which makes overriding and a base reference possible.
+On the other hand we have a `Motif.Utility.extend` method which is compatible with this idea and adds base method references which makes overriding and a base reference possible.
 
 ### Controls
 
@@ -43,3 +43,7 @@ On the other hand we have a Motif.Utility.extend method which is compatible with
 ### Class Reference
 
 [rayraegah.github.io/motif](http://rayraegah.github.io/motif/docs/motif/1.7.14/)
+
+### License
+
+Apache 2.0
