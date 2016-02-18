@@ -1,0 +1,33 @@
+{
+  "name": "motif",
+  "version": "1.7.14",
+  "description": "A javascript object framework for adding interactive content to web pages.",
+  "main": "src/Motif.js",
+  "scripts": {
+    "test": "git status",
+    "build:docs": "jsdoc -c ./tools/jsdoc-conf.json --verbose",
+    "build:minify": "node ./tools/minify.js",
+    "publish": "npm run build:docs && npm run build:minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayraegah/motif.git"
+  },
+  "keywords": [
+    "javascript",
+    "js-framework",
+    "ui"
+  ],
+  "author": "Rayraegah",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Rayraegah/motif/issues"
+  },
+  "homepage": "https://github.com/Rayraegah/motif#readme",
+  "devDependencies": {
+    "jsdoc": "^3.4.0",
+    "minami": "^1.1.1",
+    "uglify-js": "^2.6.1",
+    "uglifycss": "0.0.20"
+  }
+}
