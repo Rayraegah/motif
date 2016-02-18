@@ -1,0 +1,7 @@
+.Motif-Ui-Controls-SelectBox {
+    overflow: hidden;
+}
+
+.Horizontal .Inner div {
+    float: left;
+}

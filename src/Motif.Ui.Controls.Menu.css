@@ -1,0 +1,11 @@
+.Motif-Ui-Controls-Menu {
+    position: absolute;
+    border: outset #aaaaaa 1px;
+    background: #eeeeee;
+    margin-top: -1px;
+    margin-left: 6px;
+}
+
+.Motif-Ui-Controls-MenuItem {
+    padding: 2px;
+}

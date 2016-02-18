@@ -1,0 +1,10 @@
+.Motif-Ui-Controls-Slider {
+    border: solid #aaaaaa 1px;
+}
+
+.Motif-Ui-Controls-Slider .Handle {
+    background: #aaaaaa;
+    width: 10px;
+    height: 20px;
+    position: relative;
+}

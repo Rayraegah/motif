@@ -1,0 +1,15 @@
+
+.Motif-Ui-Controls-TabPane {
+}
+
+.Motif-Ui-Controls-TabStrip {
+    height: 24px;
+    overflow: hidden;
+}
+
+.Motif-Ui-Controls-TabButton {
+    border: solid #000000 1px;
+    height: 20px;
+    padding: 2px;
+    float: left;
+}

@@ -1,0 +1,8 @@
+.Motif-Ui-Controls-Progressbar {
+    border: solid #000000 1px;
+}
+
+.Motif-Ui-Controls-Progressbar .Inner {
+    background: #000066;
+    bottom: 0;
+}

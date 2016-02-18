@@ -1,0 +1,49 @@
+.Motif-Ui-Controls-DatePicker {
+    table-layout: fixed;
+    width: 160px;
+    height: 160px;
+    border: solid #000000 1px;
+}
+
+.Motif-Ui-Controls-DatePicker td.Cell {
+    width: 20px;
+    height: 20px;
+    vertical-align: center;
+    text-align: center;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.Motif-Ui-Controls-DatePicker td.Week {
+    background: #eeeeee;
+    color: #aaaaaa;
+}
+
+.Motif-Ui-Controls-DatePicker td.Day {
+    background: #ffffff;
+    cursor: hand;
+    cursor: pointer;
+}
+
+.Motif-Ui-Controls-DatePicker td.ToDay {
+    color: #ff0000;
+}
+.Motif-Ui-Controls-DatePicker td.Selected {
+    background: #eeeeee;
+}
+.Motif-Ui-Controls-DatePicker td.PreviousMonth {
+    width: 20px;
+    height: 20px;
+}
+
+.Motif-Ui-Controls-DatePicker td.MonthYear {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    height: 20px;
+}
+
+.Motif-Ui-Controls-DatePicker td.NextMonth {
+    width: 20px;
+    height: 20px;
+}
