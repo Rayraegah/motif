@@ -1,0 +1,20 @@
+{
+	"tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+	"source": {
+	    "include": [ "./src" ],
+	    "exclude": [ "./bin", "./docs", "./node_modules" ],
+	    "includePattern": ".+\\.js(doc)?$",
+	    "excludePattern": "(^|\\/|\\\\)_"
+	},
+	"opts": {
+	    "template": "./node_modules/minami",	// templates/default
+	    "encoding": "utf8",						// file encoding
+	    "destination": "./docs/",				// doc folder
+	    "recurse": true,						// nested folders
+	    "readme": "./README.md",				// default readme file
+	    "package": "./package.json"				// npm package
+	}
+}
