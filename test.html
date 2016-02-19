@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motif test runner</title>
+    <link rel="stylesheet" href="src/Motif.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.DatePicker.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.Form.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.Menu.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.Progressbar.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.SelectBox.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.Slider.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.SplitPane.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.TabPane.css">
+    <link rel="stylesheet" href="src/Motif.Ui.Controls.Toolbar.css">
+</head>
+
+<body>
+    <div id="application"></div>
+    <script type="text/javascript" src="src/Motif.js"></script>
+    <script type="text/javascript" src="src/Javascript.Prototype.Date.js"></script>
+    <script type="text/javascript" src="src/Javascript.Prototype.Object.js"></script>
+    <script type="text/javascript" src="src/Javascript.Prototype.String.js"></script>
+    <script type="text/javascript" src="src/Motif.Checksum.Adler32.js"></script>
+    <script type="text/javascript" src="src/Motif.Checksum.Crc32.js"></script>
+    <script type="text/javascript" src="src/Motif.Collections.DelimitedString.js"></script>
+    <script type="text/javascript" src="src/Motif.Collections.Hashtable.js"></script>
+    <script type="text/javascript" src="src/Motif.Collections.List.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.Column.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.ColumnCollection.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.Row.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.RowCollection.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.Source.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.Table.js"></script>
+    <script type="text/javascript" src="src/Motif.Data.TableCollection.js"></script>
+    <script type="text/javascript" src="src/Motif.Dom.Selection.js"></script>
+    <script type="text/javascript" src="src/Motif.Dom.Utility.js"></script>
+    <script type="text/javascript" src="src/Motif.Drawing.Color.js"></script>
+    <script type="text/javascript" src="src/Motif.Drawing.Point.js"></script>
+    <script type="text/javascript" src="src/Motif.Drawing.Rectangle.js"></script>
+    <script type="text/javascript" src="src/Motif.Encryption.Rc4.js"></script>
+    <script type="text/javascript" src="src/Motif.Encryption.Xor.js"></script>
+    <script type="text/javascript" src="src/Motif.Net.HttpCookie.js"></script>
+    <script type="text/javascript" src="src/Motif.Net.HttpCookieCollection.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Css.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.Base.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.Color.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.Fade.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.Inflate.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.List.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.Move.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Animations.Resize.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Control.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.ControlCollection.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.DatePicker.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Event.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Form.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.FormTitleBar.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Image.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.ImageList.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.InputBoxIp4.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.JwPlayer.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Loader.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Menu.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Progressbar.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.RichTextBox.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.RichTextCommands.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.RichTextEditor.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.SelectBox.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Slider.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.SlideShow.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.SplitPane.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Swf.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.TabPage.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.TabPane.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.TestControl.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.TextBox.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Toolbar.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.ToolbarButton.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Tooltip.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Utility.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.WebBrowser.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.Window.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.WindowManager.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Controls.YoutubePlayer.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Devices.Keyboard.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Devices.Keymap.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Devices.Mouse.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Devices.Screen.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Utility.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Xhtml.BlockElements.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Xhtml.Element.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Xhtml.EmptyElements.js"></script>
+    <script type="text/javascript" src="src/Motif.Ui.Xhtml.Table.js"></script>
+</body>
+
+</html>
